@@ -36,6 +36,14 @@ El bot puede decidir automáticamente qué herramienta usar basándose en la con
 ## Instrucciones de instalación local
 
 1. Clonar el repositorio:
-```bash
+bash
 git clone <TU_REPOSITORIO>
 cd <TU_REPOSITORIO>
+
+2. Crear un entorno virtual e instalar depencias
+  python -m venv venv
+  source venv/bin/activate  # Linux/Mac
+  o venv\Scripts\activate    # Windows
+  pip install -r requirements.txt
+
+3. 
