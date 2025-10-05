@@ -40,19 +40,22 @@ El bot puede decidir automáticamente qué herramienta usar basándose en la con
    cd <TU_REPOSITORIO>
 
 
-3. Crear un entorno virtual e instalar depencias
-    -`python -m venv venv`
-    -`source venv/bin/activate  # Linux/Mac`
-    -`o venv\Scripts\activate    # Windows`
-    -`pip install -r requirements.txt`
+2. Crear un entorno virtual e instalar depencias
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # Linux/Mac
+    o venv\Scripts\activate    # Windows
+    pip install -r requirements.txt
 
 4. Configurar variables de entorno en un archivo .env:
-  -`TELEGRAM_BOT_TOKEN=<Tu_token_de_Telegram>`
-  -`GEMINI_API_KEY=<Tu_API_Key_de_Gemini_AI>`
-  -`WEATHER_API_KEY=<Tu_API_Key_de_WeatherAPI>`
+   ```bash
+    TELEGRAM_BOT_TOKEN=<Tu_token_de_Telegram>
+    GEMINI_API_KEY=<Tu_API_Key_de_Gemini_AI>
+    WEATHER_API_KEY=<Tu_API_Key_de_WeatherAPI>
 
-5. Ejecutar el comando para correr el bot:
-   -`python bot.py`
+6. Ejecutar el comando para correr el bot:
+    ```bash
+   `python bot.py`
 
 **Comandos disponibles con ejemplos**
 | Comando                       | Descripción                          | Ejemplo                                 |
