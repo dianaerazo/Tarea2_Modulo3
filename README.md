@@ -34,24 +34,24 @@ El bot puede decidir automáticamente qué herramienta usar basándose en la con
 ---
 
 ## Instrucciones de instalación local
-
 1. Clonar el repositorio:
-bash
--`git clone <TU_REPOSITORIO>`
--`cd <TU_REPOSITORIO>`
+   ```bash
+   git clone <TU_REPOSITORIO>
+   cd <TU_REPOSITORIO>
 
-2. Crear un entorno virtual e instalar depencias
-  -`python -m venv venv`
-  -`source venv/bin/activate  # Linux/Mac`
-  -`o venv\Scripts\activate    # Windows`
-  -`pip install -r requirements.txt`
 
-3. Configurar variables de entorno en un archivo .env:
+3. Crear un entorno virtual e instalar depencias
+    -`python -m venv venv`
+    -`source venv/bin/activate  # Linux/Mac`
+    -`o venv\Scripts\activate    # Windows`
+    -`pip install -r requirements.txt`
+
+4. Configurar variables de entorno en un archivo .env:
   -`TELEGRAM_BOT_TOKEN=<Tu_token_de_Telegram>`
   -`GEMINI_API_KEY=<Tu_API_Key_de_Gemini_AI>`
   -`WEATHER_API_KEY=<Tu_API_Key_de_WeatherAPI>`
 
-4. Ejecutar el comando para correr el bot:
+5. Ejecutar el comando para correr el bot:
    -`python bot.py`
 
 **Comandos disponibles con ejemplos**
@@ -67,7 +67,7 @@ bash
 | `/gemini <pregunta>`          | Pregunta a Gemini AI                 | `/gemini ¿Quién es Albert Einstein?`    |
 | `/ask <pregunta>`             | LangChain Agent decide qué tool usar | `/ask Tradúceme al francés: Hola mundo` |
 
-```markdown
+
 **Algunas imágenes del avance del bot**
 <img width="1091" height="776" alt="Captura de pantalla 2025-10-04 a la(s) 11 52 17 p  m" src="https://github.com/user-attachments/assets/b570f769-220a-4c7a-98c5-95c08bc7db29" />
 
@@ -76,7 +76,7 @@ bash
 <img width="963" height="663" alt="Captura de pantalla 2025-10-04 a la(s) 11 53 58 p  m" src="https://github.com/user-attachments/assets/791e857b-d62a-4f81-a130-6c791957ad68" />
 
 <img width="947" height="780" alt="Captura de pantalla 2025-10-04 a la(s) 11 54 17 p  m" src="https://github.com/user-attachments/assets/17f1e5f8-d9fa-4197-bfae-f57048c1fc34" />
-```
+
 **APIs utilizadas**
 Gemini AI
  - Generación de respuestas inteligentes y traducción.
